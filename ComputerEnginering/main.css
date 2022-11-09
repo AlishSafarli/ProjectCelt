@@ -1,0 +1,268 @@
+.first_section_header {
+    text-align: center;
+    font-weight: 900;
+    font-size: 3.5rem;
+    line-height: 44px;
+    color: var(--blue);
+    margin-top: 48px;
+}
+
+.first_section {
+    max-width: 1170px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 34px;
+}
+
+.grids {
+    max-width: 1170px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(377px, 1fr));
+    gap: 19px;
+    height: 339px;
+}
+
+.grid_card {
+    min-width: 377px;
+    background-color: var(--white);
+    box-shadow: 0px 0px 9px rgba(69, 69, 69, 0.23);
+    border-radius: 6px;
+    padding-left: 31px;
+    padding-top: 29px;
+}
+
+.grid_card h3 {
+    font-weight: 700;
+    font-size: 2.2rem;
+    line-height: 22px;
+    color: var(--blue);
+    margin-bottom: 11px;
+}
+
+.grid_card h4 {
+    font-weight: 300;
+    font-size: 1.7rem;
+    line-height: 21px;
+    margin-bottom: 17px;
+}
+
+.grid_card h4 span {
+    color: var(--grey3)
+}
+
+.second_grid {
+    max-width: 1170px;
+    display: grid;
+    grid-template-columns: 8fr 4fr;
+    gap: 15px;
+    margin-top: 36px;
+}
+
+.second_grid_cards {
+    background: var(--white);
+    box-shadow: 0px 0px 9px rgba(69, 69, 69, 0.23);
+    border-radius: 6px;
+    padding-left: 31px;
+    padding-top: 29px;
+}
+
+.second_grid_cards h3 {
+    font-weight: 700;
+    font-size: 2.2rem;
+    line-height: 22px;
+    color: var(--blue);
+    margin-bottom: 16px;
+}
+
+.second_grid_cards p {
+    font-weight: 300;
+    font-size: 1.7rem;
+    line-height: 26px;
+}
+
+
+
+.grid_child_grid1 {
+    background: var(--white);
+    box-shadow: 0px 0px 9px rgba(69, 69, 69, 0.23);
+    border-radius: 6px;
+    margin-bottom: 24px;
+    text-align: center;
+    padding-top: 14px;
+    padding-left: 10px;
+    padding-bottom: 20px;
+
+
+}
+
+.grid_child_grid2 {
+    background: var(--white);
+    box-shadow: 0px 0px 9px rgba(69, 69, 69, 0.23);
+    border-radius: 6px;
+    text-align: center;
+    padding-top: 14px;
+    padding-left: 10px;
+    padding-bottom: 20px;
+
+}
+
+.grid_child_grid1 h4 {
+    font-weight: 300;
+    font-size: 1.8rem;
+    line-height: 22px;
+    margin-top: 6px;
+
+}
+
+.grid_child_grid1 h4 span {
+    color: var(--grey3)
+}
+
+.grid_child_grid2 h4 {
+    font-weight: 300;
+    font-size: 1.8rem;
+    line-height: 22px;
+    margin-top: 6px;
+
+}
+
+.grid_child_grid2 h4 span {
+    color: var(--grey3)
+}
+
+
+.section_student_review {
+    margin-top: 64px;
+    position: relative;
+}
+
+.student_review h3 {
+    font-weight: 800;
+    font-size: 3.5rem;
+    line-height: 44px;
+    color: var(--blue);
+    margin-bottom: 5px;
+}
+
+.student_review h4 {
+    font-weight: 400;
+    font-size: 2rem;
+    line-height: 25px;
+    margin-bottom: 15px;
+}
+
+.yellow_stars {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.review_range {
+    font-weight: 900;
+    font-size: 26px;
+    line-height: 33px;
+    border-radius: 50%;
+    border: 0.2px solid var(--grey4);
+    box-shadow: 1px 1px 5px 1px var(--grey4);
+    padding: 16px 13px 16px 10px;
+}
+
+.review_range span {
+    color: var(--grey4);
+}
+
+.comment {
+    display: block;
+    margin-top: 11px;
+    margin-bottom: 17px;
+    padding-top: 8px;
+    padding-left: 15px;
+    font-weight: 300;
+    font-size: 1.6rem;
+    line-height: 20px;
+}
+
+.student_review_btn {
+    font-weight: 700;
+    font-size: 1.8rem;
+    line-height: 23px;
+    color: var(--white);
+    background-color: var(--orange);
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 6px 8px 7px 8px;
+    border-radius: 4px;
+}
+
+.student_review_cards {
+    background: var(--white);
+    box-shadow: 0px 0px 9px rgba(0, 0, 0, 0.25);
+    border-radius: 9px;
+    min-width: 226px;
+    position: relative;
+    height: 150px;
+    padding: 35px 4px 1px 9px;
+}
+
+.main_student_review_cards {
+    max-width: 758px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(226px, 1fr));
+    gap: 40px;
+    position: absolute;
+    left: 412px;
+    top: 90px;
+}
+
+.card_first {
+    position: absolute;
+    bottom: 110px;
+    left: 60px;
+}
+
+.student_review_cards p {
+    font-weight: 300;
+    font-size: 1.4rem;
+    line-height: 22px;
+}
+
+.card_student_reviev_list ul {
+    list-style: none;
+    display: flex;
+
+}
+
+.card_student_reviev_list {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.card_student_reviev_list h4 {
+    font-weight: 600;
+    font-size: 1.3rem;
+    line-height: 22px;
+    color: var(--grey4)
+}
+
+.forEmailAddress a {
+    text-decoration: none;
+    font-weight: 300;
+    font-size: 1.6rem;
+    line-height: 22px;
+    display: inline-block;
+    text-align: end;
+    width: 100%;
+
+}
+
+.all_univercities {
+    font-weight: 900;
+    font-size: 3.5rem;
+    line-height: 44px;
+    color:var(--blue);
+    text-align: center;
+    margin-top: 61px;
+}
