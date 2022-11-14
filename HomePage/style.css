@@ -30,7 +30,7 @@ html {
 
 body {
     font-family: 'Mulish', sans-serif;
-    background-color: var(--grey8);
+    background:var(--gray8);
 }
 
 .header_head_conatiner {
