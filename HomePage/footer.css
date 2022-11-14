@@ -40,14 +40,14 @@
         font-weight: 400;
         font-size: 1.4rem;
         line-height: 18px;
-        color:var(--grey10);
+        color:var(--gray10);
     }
     
     form input{
     font-weight: 400;
     font-size: 1.8rem;
     line-height: 23px;
-    color:var(--grey9);
+    color:var(--gray9);
     border:none;
     outline: none;
     height: 34px;
