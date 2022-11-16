@@ -453,4 +453,12 @@ select option {
     color: var(--blue1)
 }
 
+label i{
+    display: none !important;
+}
+
+#nav_check{
+    display: none;
+}
+
 
